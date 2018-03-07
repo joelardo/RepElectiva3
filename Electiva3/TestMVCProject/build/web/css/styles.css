@@ -1,31 +1,11 @@
-body
-{
-background-image:url('../images/gradient2.png');
-background-repeat:repeat-x;
-font-family: verdana, arial, sans-serif ;
-color: #0b2257;
+
+/* ESTILOS PARA LOS INPUT */
+input:valid, textarea:valid {
+    border: 1px solid green;
 }
-
-a:link {text-decoration:none; font-weight: bold; color: #1f3d85;}   
-a:visited {text-decoration:none; font-weight: bold; color:#1f3d85; } 
-a:hover {text-decoration:underline; font-weight: bold; color:#0f204a;}   
-a:active {text-decoration:underline; font-weight: bold; color:#1f3d85;}
-
-
-.buttonStyle {
-	padding:5px;
-	margin:0 10px 10px 0;
-	background:#E9E9E9;
-	border:1px solid #999999;
-	color:#0b2257;
-	width: 100px;
-	height: 25px;
-	vertical-align: center;
+input:invalid, textarea:invalid {
+    border: 1px solid red;
 }
-
-.buttonStyle:hover {
-
-	color:#FFFFFF;
-	background:#999999;
-
+div.col-10 {
+    padding-top: 10px;
 }
