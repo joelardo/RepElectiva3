@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+	<!-- Primero creamos el menu con la etiqueta navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-primary" > 
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="bootstrap/imagenes/elogo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Ecoclínica</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto ml-auto"> <!-- mr-auto significa margin right y ml margin left, se setean a auto para que se centren-->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="somos.jsp">NOSOTROS</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="profesionales.jsp">NUESTROS PROFESIONALES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.jsp">CONTACTO</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="turno.jsp">TURNOS</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="login.jsp">LOGIN</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
